@@ -5,7 +5,7 @@ hosts=(ylladev ylla) # tornado lightning thunder tundra jefferson
 dry=() #add --dry-run to enable testing
 user=ubuntu
 name=ylla
-project=ylla-tokensale
+project=ylla-tokensale-web
 
 for host in "${hosts[@]}"
 do
@@ -19,5 +19,5 @@ do
 done
 
 version=$(jq -r .version package.json)
-say "yella token sale is live!"
+say "yella token sale web is live!"
 exit
