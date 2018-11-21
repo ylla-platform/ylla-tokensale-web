@@ -1,0 +1,20 @@
+{
+  "name": "ylla-tokensale-web",
+  "version": "1.0.0",
+  "description": "Static web site for http://tokensale.yl.la",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "./bin/deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ylla-platform/ylla-tokensale-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ylla-platform/ylla-tokensale-web/issues"
+  },
+  "homepage": "https://github.com/ylla-platform/ylla-tokensale-web#readme"
+}
