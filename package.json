@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/http-server .",
     "deploy": "./bin/deploy.sh"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ylla-platform/ylla-tokensale-web/issues"
   },
-  "homepage": "https://github.com/ylla-platform/ylla-tokensale-web#readme"
+  "homepage": "https://github.com/ylla-platform/ylla-tokensale-web#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }
